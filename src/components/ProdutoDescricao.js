@@ -1,9 +1,9 @@
 import React from 'react';
-
+import '../App.css';
 
 function ProdutoDescricao() {
   return (
-    <section className="produto-descricao" id="descricao">
+    <section className="produto-descricao fade-in-up" id="descricao">
       <div className="container">
         <div className="descricao-card">
           <h2>Conheça o HyperSound X1</h2>

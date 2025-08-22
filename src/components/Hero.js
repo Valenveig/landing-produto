@@ -1,11 +1,11 @@
 // Hero.jsx
 import React from 'react';
 import heroImg from '../assets/Daco_4596686.png';
-import '../App.css'; // import correto do CSS
+import '../App.css'; // CSS importado
 
 function Hero() {
   return (
-    <section className="hero" id="hero">
+    <section className="hero fade-in-up" id="hero">
       <div className="container">
         {/* Conteúdo do lado esquerdo */}
         <div className="hero-content">
